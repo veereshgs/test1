@@ -1,4 +1,3 @@
-
 class NSolution:
 
     def ways_to_attend_classes(self, n):
@@ -18,13 +17,12 @@ class NSolution:
             count = (count-temp)*2+temp
         return str(AAA+AA+A)+'/'+str(count)
     
+if __name__ == "__main__":
+    r = NSolution()
+    print(r.ways_to_attend_classes(5))
 
 
-r = NSolution()
-print(r.ways_to_attend_classes(5))
-
-
-r = NSolution()
-print(r.ways_to_attend_classes(10))
+    r = NSolution()
+    print(r.ways_to_attend_classes(10))
 
 
